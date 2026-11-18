@@ -6,7 +6,8 @@
 
 A **Project Zomboid Build 42** mod: a small window that shows what your gear really costs you in **discomfort**, and what it gives you back in **protection**.
 
-> **Steam Workshop:** coming soon. This page will link to it once the mod is published.
+> **Steam Workshop:** [subscribe on the Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3842012323) (Workshop ID `3842012323`, Mod ID `ArmorVsComfort`).
+>
 > **Translations:** this mod speaks 24 languages, and most of them need a native speaker's eye. [You can help in five minutes.](#help-with-the-translations)
 
 ---
