@@ -19,16 +19,19 @@ Build 42 made discomfort a real trade-off: every vest, helmet and backpack makes
 
 ## What it shows
 
-- **Your discomfort**, out of 100, with the moodle steps (20, 40, 60, 80).
+- **Your discomfort**, in %, with the moodle steps (20, 40, 60, 80).
 - **Where it is heading**, with two markers on the bar:
   - **yellow**: where your clothing alone takes it;
-  - **red**: the total upper limit, with your surroundings on top (wet, cold, heat, a bad bed or the floor, dragging a corpse, an overloaded vehicle; alcohol lowers it).
+  - **red**: the max with environment, with your surroundings on top (wet, cold, heat, a bad bed or the floor, dragging a corpse, an overloaded vehicle; alcohol lowers it).
   Discomfort climbs slowly up to it, and drops fast when you take things off.
+- **Stress and unhappiness**, what discomfort leads to: their value in % and the game's moodles on a 4-step scale. The more stressed you are, the worse your aim becomes.
 - **Your protection score**, out of 100 %: your average bite and scratch protection over the 17 body parts, the same values as the game's Protection tab.
 - **Speed penalties** of your gear: movement and attack speed, in %.
-- **Every worn item**, grouped by body region (head, torso, arms and hands, legs, feet, bags; bandages last): its discomfort points and its bite and scratch protection, **patches included**, part by part, like the game's garment window.
+- **Every worn item**, grouped by body region (head, neck, top: torso, arms and hands; bottom: groin, legs, feet; bags; bandages last): its discomfort points and its bite and scratch protection, **patches included**, part by part, like the game's garment window.
 - **Holes**: a danger icon on damaged items, with a tooltip (and a clear warning when the item can't be repaired).
-- **Two foldable sections**: clothing discomfort and environmental discomfort, each cause led by the game's own moodle icon.
+- **Two foldable sections**: clothing discomfort and environmental and situational discomfort, each cause led by the game's own moodle icon.
+- **Improvable column**: a check per item tells whether its padding is at the best your current tailoring level allows, can be improved, is partial, is missing, or can't be done at all (tooltip on hover); your tailoring level is shown too.
+- **Covered body parts**: hover an item's icon to see exactly which body parts it covers.
 - A **discreet panel** in the style of the game's own windows, for when you just want the numbers.
 
 Find the gear that protects the most for the fewest points.
@@ -86,7 +89,7 @@ Before you start, read [TRANSLATING.md](TRANSLATING.md): it explains the few rul
 
 ## Changelog
 
-- **1.1.1**: two markers on the bar (clothing, total upper limit) with their legend; clothing and environmental discomfort sections; moodle icons; protection with patches and holes; danger icon on damaged items; items grouped by body region, bandages last; worn bandages shown as the real bandage; green protection values (option); a visible warning on the refresh interval; the large window size removed.
+- **1.1.1**: two markers on the bar (clothing, max with environment) with their legend; clothing and environmental discomfort sections; moodle icons; protection with patches and holes; danger icon on damaged items; items grouped by body region, bandages last; worn bandages shown as the real bandage; green protection values (option); a visible warning on the refresh interval; the large window size removed; Improvable column (padding state, tailoring level); covered body parts on hover; upper body / lower body regions; the window follows the game's font size (1440p, 4K) and every translation fits, checked in all 24 languages at every font size.
 - **1.1.0**: discreet panel, 12 more languages (24 in all), refresh interval of 1 s at least.
 - **1.0.0**: first release.
 
