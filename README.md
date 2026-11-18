@@ -1,4 +1,4 @@
-<p align="center"><img src="images/preview.png" width="256" alt="The Good Gear (TGG): Armor vs Comfort"></p>
+<p align="center"><img src="images/workshop-image-1280x720.png" width="100%" alt="The Good Gear (TGG): Armor vs Comfort"></p>
 
 # The Good Gear (TGG): Armor vs Comfort
 
