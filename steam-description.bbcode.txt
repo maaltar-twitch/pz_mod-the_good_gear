@@ -1,0 +1,59 @@
+[h1]The Good Gear (TGG): Armor vs Comfort[/h1]
+[i]Fight to live. Dress to fight.[/i]
+Build 42 made [b]discomfort[/b] a real trade-off: every vest, helmet and backpack makes your survivor uncomfortable, and an uncomfortable survivor gets stressed. The game shows a moodle and a tiny bar per item. It never shows the total, or what each piece of gear gives you back in protection.
+
+[b]The Good Gear[/b] is a small window that does.
+
+[h2]What it shows[/h2]
+[list]
+[*][b]Your discomfort[/b], out of 100, with the moodle steps (20, 40, 60, 80).
+[*][b]Where it is heading[/b]: two markers on the bar. [b]Yellow[/b]: where your clothing alone takes it. [b]Red[/b]: with your surroundings on top (wet, cold, heat, a bad bed, a corpse, an overloaded vehicle, alcohol). Discomfort climbs slowly up to it, and drops fast when you take things off.
+[*]Two foldable sections: [b]clothing discomfort[/b] (your gear, item by item) and [b]environmental discomfort[/b] (what adds to it right now: wet, cold, heat, a bad bed or the floor, dragging a corpse, an overloaded vehicle; alcohol lowers it).
+[*][b]Your protection score[/b], out of 100 %: your average bite and scratch protection over the 17 body parts, the same values as the game's Protection tab.
+[*][b]Speed penalties[/b] of your gear: movement and attack speed, in %.
+[*][b]Every worn item[/b]: its discomfort points, its bite and scratch protection. Items that cause discomfort first, then (optional) the ones that don't. Both sections fold, and the list scrolls when you wear a lot.
+[/list]
+Find the gear that protects the most for the fewest points.
+
+[h2]How to use it[/h2]
+[list]
+[*]Press [b]Insert[/b], or right-click a clothing item or a bag and pick [i]The Good Gear (TGG)[/i].
+[*]Hover the [b]?[/b] for a plain explanation of the formula.
+[*]The small window button next to the cross switches to a [b]discreet panel[/b] in the style of the game's own windows (protection and discomfort as rows of squares, like skill levels). Click it again for the full card.
+[*]Drag it anywhere. It reopens where you left it.
+[/list]
+
+[h2]Options[/h2]
+Options > Mods > The Good Gear:
+[list]
+[*][b]Key[/b] to open and close the window.
+[*][b]Refresh interval[/b], from 1 to 60 seconds (1 s by default). A low value recalculates more often and can slow down a modest PC. Nothing is calculated while the window is closed.
+[*][b]Window size[/b]: compact or medium.
+[*][b]Game names[/b] for renamed items (on by default).
+[*][b]Maximum height[/b], in % of the screen (50 % by default).
+[*][b]Show items without discomfort[/b] (on by default).
+[*][b]Show the explanation (?)[/b] (on by default).
+[*][b]Show environmental discomfort[/b]: red marker and its section (on by default).
+[*][b]Green protection values[/b]: bite and scratch values tinted green, darker for more protection (on by default).
+[/list]
+
+[h2]Good to know[/h2]
+[list]
+[*][b]Read-only[/b]: it changes nothing in your game and writes no file. Safe to add or remove from an existing save.
+[*][b]Client side[/b]: works in single player and multiplayer (it only reads your own character).
+[*][b]Tested on Build 42.22 only.[/b] Older 42.x builds are not supported: some values (discomfort first) may be missing there. Every game call is protected, so on another build the window shows less instead of breaking your game. If something looks wrong on your build, tell me which one in the comments.
+[*][b]Desensitized[/b] survivors ignore gear discomfort: the window says so.
+[*]The formula comes from the game code of 42.22 (it may differ on other builds): discomfort heads for the sum of the worn items, plus 10 per level of Wet, Hypothermia and Hyperthermia, plus 30 to 50 for a bad bed or the floor, 30 for dragging a corpse, 25 per Heavy Load level in a vehicle, times 1 to 0.5 for alcohol, capped at 100.
+[/list]
+
+[h2]Languages[/h2]
+English, Français, Deutsch, Español, Português (Brasil), Português, Русский, Українська, Polski, Čeština, Magyar, Română, Nederlands, Dansk, Norsk, Suomi, Català, Italiano, Türkçe, Bahasa Indonesia, 简体中文, 繁體中文, 한국어, 日本語 (24).
+Most translations still need a native speaker's eye: corrections are very welcome in the comments.
+
+[h2]Français[/h2]
+Une petite fenêtre (touche [b]Inser[/b], ou clic droit sur un vêtement) qui montre votre inconfort sur 100, avec deux repères (jaune : jusqu'où vos vêtements seuls le font monter ; rouge : avec l'environnement en plus), votre note de protection sur 100 % (morsures et égratignures sur les 17 zones du corps), les pénalités de vitesse (déplacement, attaque) et, pour chaque objet porté, son inconfort et sa protection. Pour trouver l'équipement qui protège le plus pour le moins d'inconfort. Une vue discrète, dans le style des fenêtres du jeu, s'ouvre avec le bouton à côté de la croix. Lecture seule, côté client, fréquence de mise à jour réglable. Testé seulement sur la build 42.22 : sur une autre build, certaines valeurs peuvent manquer (la fenêtre ne plante pas).
+
+[h2]Changelog[/h2]
+[b]1.1.1[/b] — Worn bandages show the bandage actually applied (sterilized bandage, rag, denim strips…) with its icon and the body part, instead of "Base.Bandage_…" with a generic icon. Body visuals (make-up, wounds, stubble) are no longer listed. A visible warning under the refresh interval in the options. Two markers on the discomfort bar: yellow = where your clothing alone takes it, red = with your surroundings (wet, cold, heat, bed, corpse, vehicle, alcohol). Two foldable sections, clothing discomfort and environmental discomfort, and an option to hide the environmental part. A legend under the bar for both markers; the discreet panel gets the two ticks and a row of squares for environmental discomfort. A vertical rule separates an item's discomfort from its two protection columns, and protection values are tinted green, darker for more protection (option). The large window size is gone (far too coarse): compact and medium remain. Item protection now counts the patches sewn on it (and its holes), part by part, like the game's garment window. An item with holes shows a danger icon next to its name, with a tooltip on hover. Worn items grouped by body region (head, torso, arms and hands, legs, feet, bags), bandages always last and only once per body part. Items that can't be patched (no fabric, e.g. military boots) say so in the holes tooltip. Under the bar, on two lines: "Your discomfort is currently X. It will progressively rise to a maximum of Y." Each cause of environmental discomfort is led by the game's own moodle icon. No signature in the discreet panel.
+[b]1.1.0[/b] — Discreet panel (button next to the cross), 12 more languages (24 in all), refresh interval of 1 s at least.
+[b]1.0.0[/b] — First release.
