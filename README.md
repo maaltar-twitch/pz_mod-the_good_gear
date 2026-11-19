@@ -18,6 +18,22 @@ Build 42 made discomfort a real trade-off: every vest, helmet and backpack makes
 
 **The Good Gear** does.
 
+## Screenshots
+
+<table>
+  <tr>
+    <td align="center" valign="top"><img src="images/screenshots/window-folded.png" width="100%" alt="The Good Gear window, sections folded"></td>
+    <td align="center" valign="top"><img src="images/screenshots/window-full.png" width="100%" alt="The Good Gear window, every worn item listed"></td>
+  </tr>
+  <tr>
+    <td align="center"><em>The full window, sections folded</em></td>
+    <td align="center"><em>Unfolded: every worn item, its discomfort, protection and padding</em></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" colspan="2"><img src="images/screenshots/discreet-panel.png" alt="The discreet panel"><br><em>The discreet panel, in the style of the game's own windows</em></td>
+  </tr>
+</table>
+
 ## What it shows
 
 - **Your discomfort**, in %, with the moodle steps (20, 40, 60, 80).

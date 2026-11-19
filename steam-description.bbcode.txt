@@ -4,6 +4,13 @@ Build 42 made [b]discomfort[/b] a real trade-off: every vest, helmet and backpac
 
 [b]The Good Gear[/b] is a small window that does.
 
+[img]https://raw.githubusercontent.com/maaltar-twitch/pz_mod-the_good_gear/main/images/screenshots/window-folded.png[/img]
+[img]https://raw.githubusercontent.com/maaltar-twitch/pz_mod-the_good_gear/main/images/screenshots/window-full.png[/img]
+[i]The full window: sections folded, then unfolded with every worn item.[/i]
+
+[img]https://raw.githubusercontent.com/maaltar-twitch/pz_mod-the_good_gear/main/images/screenshots/discreet-panel.png[/img]
+[i]The discreet panel, in the style of the game's own windows.[/i]
+
 [h2]What it shows[/h2]
 [list]
 [*][b]Your discomfort[/b], in %, with the moodle steps (20, 40, 60, 80).
